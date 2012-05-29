@@ -7,15 +7,15 @@ Version: 0.1.0
 License: GNU General Public License v2.0 | This theme is completely free and open source to use as you like for both personal and commercial projects without any limitations.
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
-@import url("../blankslate/style.css");
-/* This will override site title color even on the dark theme */
-#blog-title a {
-    color: #009900 !important;
+@import url("../blankslate.style.css");
+@font-face
+{
+	font-family:'Collaborate';
+	src:url('../Fonts/CollaborateColabReg.otf');
 }
 
-/* This will override the changed link color */
-#blog-title a:focus,
-#blog-title a:hover,
-#blog-title a:active {
-    color: #009900 !important;
+body
+{
+	background-color: blue;
+	font-family: Collaborate;
 }
