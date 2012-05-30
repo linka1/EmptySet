@@ -8,9 +8,15 @@ License: GNU General Public License v2.0 | This theme is completely free and ope
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url("../blankslate/style.css");
-/* This will override site title color even on the dark theme */
+
+@font-face{
+	font-family: Bebas; 
+	src: url("../Fonts/Dharma/BebasNeue.otf");
+}
+
 #blog-title a {
     color: #009900 !important;
+    font-family:Bebas, serif;
 }
 
 /* This will override the changed link color */
@@ -19,3 +25,22 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 #blog-title a:active {
     color: #009900 !important;
 }
+
+body{
+text-align:center;
+}
+
+#wrapper{
+
+margin: 0 auto;
+width:800px;
+text-align:left;
+
+}
+
+#content
+{
+  color:#aaa;
+  background-color:#900000;
+}
+
