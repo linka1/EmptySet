@@ -46,7 +46,9 @@ background-color:#FFF
   /*background-color:#900000;*/
 }
 
-
+#search{
+	float:right;
+}
 	
 nav ul{
 	background-color:#000; float:left; width:100%;
