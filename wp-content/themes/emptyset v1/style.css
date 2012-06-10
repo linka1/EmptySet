@@ -28,19 +28,73 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 body{
 text-align:center;
+background-color:#3D3D3D;
 }
 
 #wrapper{
 
 margin: 0 auto;
-width:800px;
+width:60em;
 text-align:left;
+background-color:#FFF
 
 }
 
 #content
 {
-  color:#aaa;
-  background-color:#900000;
+  color:#222;
+  /*background-color:#900000;*/
 }
 
+
+	
+nav ul{
+	background-color:#000; float:left; width:100%;
+	}
+	
+nav ul li{
+	display:inline;
+	}
+	
+nav ul li a{
+	padding:10px 30px; float:left; color:#fff; 
+				  font-size:16px; font-weight:bold;
+	}
+	
+nav a:hover{
+	background-color:#007002;
+	}
+	
+div #blog-title
+{
+	font-size: 200%;
+}
+div #blog-description
+{
+	font-size: 150%;
+}
+
+div.entry-content
+{
+	margin-top: 40px;
+}
+div.entry-utility
+{
+	margin-bottom: 10px;
+}
+
+footer{
+background-color:#000;
+color:#fff;
+margin-top:20px;
+height: 40px;
+}
+/*#post{
+  
+  background-color:#0FF;
+}
+
+#entry-tittle{
+	
+	color:#FFF;
+}*/
