@@ -28,7 +28,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 body{
 text-align:center;
-background-color:#3D3D3D;
+background-image:url(img/background.jpg);
 }
 
 #wrapper{
@@ -89,8 +89,16 @@ footer{
 background-color:#000;
 color:#fff;
 margin-top:20px;
-height: 40px;
+height: 30px;
 }
+
+#copyright{
+	/*Footer Text*/
+	text-align:center;
+	font-weight:lighter;
+	padding:5px;
+	}
+	
 /*#post{
   
   background-color:#0FF;
